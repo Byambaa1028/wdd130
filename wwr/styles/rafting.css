@@ -201,3 +201,125 @@ footer {
     margin-top: 8px;
     font-size: 14px;
 }
+/* CONTACT PAGE */
+
+.contact-info {
+    position: relative;
+    margin: 30px 0 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info h1 {
+    position: static;
+    margin-bottom: 15px;
+    padding: 0;
+    background-color: transparent;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    border: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-item input,
+.form-item textarea {
+    padding: 10px;
+    font-family: var(--body-font);
+    border: 1px solid #555;
+}
+
+fieldset {
+    padding: 15px;
+    border: 1px solid #555;
+}
+
+fieldset legend {
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+fieldset label {
+    display: block;
+    margin: 10px 0;
+}
+
+fieldset input {
+    margin-right: 8px;
+}
+
+.newsletter {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #14263f;
+}
+
+.employees {
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #555;
+}
+
+.employees h2 {
+    margin-bottom: 20px;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.employee-gallery figure {
+    flex: 1;
+}
+
+.employee-gallery img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.employee-gallery figcaption {
+    margin-top: 8px;
+}
