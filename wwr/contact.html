@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -35,7 +36,7 @@
         <section class="contact-area">
             <div class="map">
                 <iframe
-                    src="https://www.google.com/maps?q=Kolob%20California&output=embed"
+                    src="https://www.google.com/maps?q=Kolob%20California&amp;output=embed"
                     width="400"
                     height="350"
                     loading="lazy"
@@ -43,15 +44,23 @@
                 </iframe>
             </div>
 
-            <form>
+            <form action="#" method="get">
                 <div class="form-item">
                     <label for="fullname">Name</label>
-                    <input type="text" id="fullname" name="fullname">
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        required>
                 </div>
 
                 <div class="form-item">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
                 </div>
 
                 <fieldset>
@@ -62,7 +71,8 @@
                             type="radio"
                             id="general"
                             name="purpose"
-                            value="general">
+                            value="general"
+                            required>
                         General Inquiry
                     </label>
 
@@ -90,8 +100,8 @@
                     <textarea
                         id="message"
                         name="message"
-                        rows="5">
-                    </textarea>
+                        rows="5"
+                        required></textarea>
                 </div>
 
                 <div class="newsletter">
@@ -113,19 +123,26 @@
 
             <div class="employee-gallery">
                 <figure>
-                    <img src="images/employee1.jpg" alt="Rafting guide">
+                    <img
+                        src="images/employee1.jpg"
+                        alt="Sarah, lead rafting guide"
+                        loading="lazy">
                     <figcaption>Sarah - Lead Rafting Guide</figcaption>
                 </figure>
 
                 <figure>
                     <img
                         src="images/employee2.jpg"
-                        alt="Customer service employee">
+                        alt="James, customer service employee"
+                        loading="lazy">
                     <figcaption>James - Customer Service</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/employee3.jpg" alt="Rafting manager">
+                    <img
+                        src="images/employee3.jpg"
+                        alt="Emily, trip manager"
+                        loading="lazy">
                     <figcaption>Emily - Trip Manager</figcaption>
                 </figure>
             </div>
@@ -135,7 +152,7 @@
     <footer>
         <p>© 2026 White Water Rafting | Byambadulam B</p>
 
-        <nav class="socialmedia">
+        <nav class="socialmedia" aria-label="Social media">
             <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="Facebook">
             </a>

@@ -1,0 +1,48 @@
+CSE 111 Proposal for a Student Chosen Program
+
+1. What is the title of your program?
+
+Underground Mining Shift Delay Tracker
+
+
+2. What real-world problem will your program address or help to solve?
+
+My program will help track delays during an underground mining shift.
+Workers and schedulers need to know how much working time is lost because
+of delays. The program will use information such as planned work hours,
+actual work hours, number of workers, and delay hours. It will calculate
+delayed man-hours and work efficiency and display a summary of the shift.
+This can help a scheduler understand how delays affect planned work.
+
+
+3. What will you learn from developing this program?
+
+I will learn how to organize a larger Python program using multiple
+functions. I will practice using parameters and return values, reading
+data from a file, performing calculations, and handling errors. I will
+also learn how to write test functions and use pytest to check that my
+functions work correctly.
+
+
+4. What Python modules will your program use?
+
+csv
+datetime
+pytest
+
+
+5. List the names of functions you will need?
+
+calculate_delay_hours()
+calculate_delayed_manhours()
+calculate_efficiency()
+read_shift_data()
+display_summary()
+main()
+
+
+6. List the names of the test functions you will write.
+
+test_calculate_delay_hours()
+test_calculate_delayed_manhours()
+test_calculate_efficiency()
